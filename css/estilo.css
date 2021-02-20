@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width:100%;
+    background:#3B452E;
+    color: white; /*da color al text0*/
+    padding-top: 1em; /*da espacio hacia arriba*/
+    padding-bottom: 1em; /*da espacio hacia abajo*/
+}
+header img{
+    width:100px;
+    margin-left: 46%; /*con la ayuda del % se centra*/
+    margin-top:1%;
+    border-radius:100%;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+section{
+    width:70%;
+    margin:0 auto;
+}
+article{
+    padding: 20px 0 20px 0;
+    border-bottom: 1px dotted #244CD1;
+
+}
+article h2{
+    float: left;
+    border-bottom: 2px solid #A4D124;
+    padding-bottom: 5px;
+    line-height: 1.3em;
+    font-size: 1em;
+    text-transform: uppercase; /*cambia la letra*/
+
+}
+article p{
+    margin-left: 20%;
+}
+article p, article ul{
+    margin-left: 35%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#b68973;
+    line-height: 1.3em; /*separacion de lineas*/
+    margin-bottom: 1.6em;
+}
+article ul li{
+    margin-left: 15px;
+    list-style: square; /*cambia los puntos */
+
+}
+footer{
+    margin-top:2em;
+    padding: 1em;
+    width: 100%;
+    background: #3B452E;
+    color: azure;
+    text-align: center;
+}
+footer a:link, footer a:visited{
+    color: azure;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: orange;
+}
